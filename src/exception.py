@@ -1,4 +1,5 @@
 import sys
+from src.logger import logging
 
 def error_messgae_details(error, error_detail):
     _,_,exc_tb=error_detail.exc_info()
